@@ -1,0 +1,244 @@
+.container-header {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px){
+	.container-header {
+		width: 750px;
+		margin-top: -8px;
+		background-color: rgba(244,244,244,.8);
+		min-height: 56px;
+	}
+	
+	.header-wrapper {
+		position: absolute;
+		padding: 64px 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}
+	
+	.header-top {
+		padding: 8px 0;
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: rgba(255, 255, 255, 0);
+	}
+	
+	ul.nav.navbar-nav li a {
+		text-transform: capitalize;
+		color: #171717;
+		font-weight: 400;
+		font-size: 9px;
+		letter-spacing: 1.4px;
+		padding: 0 12px;
+		line-height: 10px;
+		margin-top: 0px;
+		border-right: 1px solid #d5d4d4;
+	}
+	
+	.dropdown-menu .mega-content ul li a {
+		text-transform: capitalize;
+		line-height: 26px;
+		padding: 0;
+		font-size: 13px;
+		color: #7f7f7f;
+		border-right: 0px solid transparent;
+	}
+	
+}
+
+
+
+@media (min-width: 992px){
+	.container-header {
+		width: 970px;
+		margin-top: -8px;
+		background-color: rgba(244,244,244,.8);
+		min-height: 56px;
+	}
+	
+	.header-wrapper {
+		position: absolute;
+		padding: 64px 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}
+	
+	.header-top {
+		padding: 8px 0;
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: rgba(255, 255, 255, 0);
+	}
+	
+	ul.nav.navbar-nav li a {
+		text-transform: capitalize;
+		color: #171717;
+		font-weight: 400;
+		font-size: 11px;
+		letter-spacing: 1.4px;
+		padding: 0 9px;
+		line-height: 10px;
+		margin-top: 0px;
+		border-right: 1px solid #d5d4d4;
+	}
+	
+	.dropdown-menu .mega-content ul li a {
+		text-transform: capitalize;
+		line-height: 26px;
+		padding: 0;
+		font-size: 13px;
+		color: #7f7f7f;
+		border-right: 0px solid transparent;
+	}
+
+}
+
+@media (min-width: 1200px){
+	
+	.container-header {
+		width: 1170px;
+		margin-top: -8px;
+		background-color: rgba(244,244,244,.8);
+		min-height: 56px;
+	}
+	
+	.header-wrapper {
+		position: absolute;
+		padding: 64px 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 99;
+	}
+	
+	.header-top {
+		padding: 8px 0;
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: rgba(255, 255, 255, 0);
+	}
+	
+	ul.nav.navbar-nav li a {
+		text-transform: capitalize;
+		color: #171717;
+		font-weight: 400;
+		font-size: 14px;
+		letter-spacing: 1.4px;
+		padding: 0 12px;
+		line-height: 10px;
+		margin-top: 0px;
+		border-right: 1px solid #d5d4d4;
+	}
+	
+	.dropdown-menu .mega-content ul li a {
+		text-transform: capitalize;
+		line-height: 26px;
+		padding: 0;
+		font-size: 13px;
+		color: #7f7f7f;
+		border-right: 0px solid transparent;
+	}
+}
+
+.tours-ovelay{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+.paket-ovelay{
+    background: url('../img/take-look.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.top-btn-gng{
+	position: relative;
+    width: auto;
+    text-align: right;
+}
+
+.top-btn-oval{
+	position: absolute;
+	color: #fff !important;
+	background: #0091f3;
+	padding: 10px 14px 8px 10px;
+	text-align: center;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	margin-top: -17px;
+	right: -2px;
+	z-index: 100;
+	text-shadow: none;
+	-webkit-border-radius: 60px;
+	border: solid 2px #f5f5f5;
+	font-size: 10px !important;
+}
+
+.event-contents-wrapper .event-content .date-image-paket {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+.date-image-paket .date-text-paket {
+    background-color: #ff0000;
+    padding: 20px 0px;
+    text-align: center;
+    height: 63px;
+    min-width: 138px;
+}
+
+.date-image-paket  .date-text-paket  p {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: -11px;
+}
+
+.date-image-paket  .date-text-paket  span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.kat-sub-paket{
+	font-weight: bold;
+    color: #999;
+    font-size: 17px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.box-gng{
+	background: #cacaca;
+    height: 37px;
+    border-bottom: 1px solid #ff0002;
+    margin-bottom: 10px !important;
+    margin-top: -4px;
+    text-align: left;
+    padding: 9px;
+}
+
+.detail-paket{
+	margin-top: -8px;
+    margin-bottom: 8px;
+    color: #999;
+	
+}

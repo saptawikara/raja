@@ -1,0 +1,10 @@
+<?php
+session_start();
+if(empty($_SESSION['bahasa'])){
+	header("location:en"); 
+}elseif($_SESSION['bahasa']=='ina'){
+	header("location:in");
+}elseif($_SESSION['bahasa']=='en'){
+	header("location:en");
+}
+?>
